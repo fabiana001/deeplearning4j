@@ -16,9 +16,9 @@ import java.util.Iterator;
   */
 public class BasicLineIterator implements SentenceIterator, Iterable<String> {
 
-    private BufferedReader reader;
+    protected BufferedReader reader;
     private InputStream backendStream;
-    private SentencePreProcessor preProcessor;
+    protected SentencePreProcessor preProcessor;
     private boolean internal = false;
 
     public BasicLineIterator(@NonNull File file) throws FileNotFoundException {

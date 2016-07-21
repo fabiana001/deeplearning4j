@@ -51,9 +51,9 @@
 
 
     <properties>
-        <nd4j.version>0.4.1-SNAPSHOT</nd4j.version>
-        <canova.version>0.0.0.18-SNAPSHOT</canova.version>
-        <datavec.version>0.4.1-SNAPSHOT</datavec.version>
+        <nd4j.version>0.4.0</nd4j.version>
+        <canova.version>0.0.0.17</canova.version>
+        <datavec.version>0.4.0</datavec.version>
         <commonsmath.version>3.4.1</commonsmath.version>
         <commonslang.version>3.3.1</commonslang.version>
         <commonsio.version>2.4</commonsio.version>
@@ -186,6 +186,7 @@
         <module>dl4j-caffe</module>
         <module>deeplearning4j-ui-parent</module>
         <module>deeplearning4j-cuda-7.5</module>
+        <module>experimentations</module>
     </modules>
 
     <licenses>
