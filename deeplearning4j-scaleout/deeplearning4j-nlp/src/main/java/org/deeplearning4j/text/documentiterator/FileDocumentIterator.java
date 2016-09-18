@@ -70,7 +70,7 @@ public class FileDocumentIterator implements DocumentIterator {
     }
 
     @Override
-    public synchronized  InputStream nextDocument() {
+    public synchronized InputStream nextDocument() {
         try {
             if(lineIterator != null && !lineIterator.hasNext() && iter.hasNext()) {
                 File next = iter.next();

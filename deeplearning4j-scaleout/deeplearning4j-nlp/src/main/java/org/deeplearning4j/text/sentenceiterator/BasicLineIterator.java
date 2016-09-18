@@ -107,7 +107,8 @@ public class BasicLineIterator implements SentenceIterator, Iterable<String> {
     @Override
     public Iterator<String> iterator() {
         this.reset();
-        Iterator<String> ret =  new Iterator<String>() {
+
+        return new Iterator<String>() {
             @Override
             public boolean hasNext() {
                 return BasicLineIterator.this.hasNext();
@@ -123,7 +124,5 @@ public class BasicLineIterator implements SentenceIterator, Iterable<String> {
                 throw new UnsupportedOperationException();
             }
         };
-
-        return ret;
     }
 }

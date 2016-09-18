@@ -627,7 +627,7 @@ public class ParagraphVectors extends Word2Vec {
 
             // hardcoded to TRUE, since it's ParagraphVectors wrapper
             ret.trainElementsVectors = this.trainElementsVectors;
-            ret.trainSequenceVectors = true;
+            ret.trainSequenceVectors = this.trainSequenceVectors;
             ret.labelsSource = this.labelsSource;
             ret.labelAwareIterator = this.labelAwareIterator;
             ret.iterator = this.iterator;

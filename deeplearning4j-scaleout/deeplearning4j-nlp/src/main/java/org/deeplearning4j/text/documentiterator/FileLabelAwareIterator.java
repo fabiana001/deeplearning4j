@@ -109,7 +109,6 @@ public class FileLabelAwareIterator implements LabelAwareIterator {
 
 
 
-
                 File[] files = file.listFiles();
                 if (files == null || files.length ==0 ) continue;
 

@@ -15,12 +15,12 @@ import java.io.IOException;
 /**
  * Created by Andrea on 13/07/16.
  */
-public class Experimentation {
+public class Word2VecExperimentation {
 
     public static void main(String[] args) throws IOException {
         if (args.length != 6 && args.length != 7) {
             System.err.println("ABORTING OPERATION...Wrong args number!\n" +
-                    "To run the jar do: java -cp name.jar Experimentation <urlMap> <sentences> <outputEmbedding> " +
+                    "To run the jar do: java -cp name.jar Word2VecExperimentation <urlMap> <sentences> <outputEmbedding> " +
                     "<learningAlgorithm> <windowSize> <iteractions> [<separator_urlMap>]\n" +
                     "                       | where:\n" +
                     "                       | <urlMap> : file containing codeUrl and url\n" +
